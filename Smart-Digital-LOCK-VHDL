@@ -1,0 +1,34 @@
+# Smart Digital Lock System Using VHDL
+
+## Overview
+This project implements a smart digital lock system coded in VHDL for FPGA deployment. It simulates a secure keypad-based lock with features including:
+
+- Keypad interface with debounce logic
+- 7-segment display status indicators
+- Lock state machine controlling locked, unlocked, and alert states
+- Wrong attempt detection and alert system
+- Master reset functionality
+
+The design is targeted for implementation on FPGA development boards such as Xilinx Spartan and has been fully simulated using ModelSim.
+
+---
+
+## Features
+- **Keypad Input**: Accurate keypad scanning and debounce
+- **State Machine Control**: Robust lock/unlock logic handling
+- **7-Segment Display Interface**: Displays lock status and attempts count
+- **Security Alerts**: Wrong password attempt alerts with counter
+- **Master Reset**: Allows system reset to initial state
+
+---
+
+## Usage
+1. Clone the repository.
+2. Open the VHDL source files in your FPGA IDE or simulation tool.
+3. Simulate the system with ModelSim or Vivado simulator.
+4. Synthesize and deploy on your FPGA board.
+5. Connect a 4x4 keypad and 7-segment display to interact with the lock.
+
+---
+
+## File Structure
